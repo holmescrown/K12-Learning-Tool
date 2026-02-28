@@ -1,5 +1,5 @@
 name = "k12-learning-tool"
-pages_build_output_dir = ".vercel/output"
+pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "k12-db"
