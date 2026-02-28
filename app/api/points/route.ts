@@ -1,3 +1,6 @@
+// 必须添加这一行，否则 Cloudflare 无法处理 D1 数据库请求
+export const runtime = 'edge';
+
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
 
