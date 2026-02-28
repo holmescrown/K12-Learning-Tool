@@ -1,0 +1,6 @@
+name = "k12-learning-tool"
+pages_build_output_dir = ".vercel/output"
+[[d1_databases]]
+binding = "DB"
+database_name = "k12-db"
+database_id = "6cb827da-b8ea-4eb5-ab39-72099bc191cc"
