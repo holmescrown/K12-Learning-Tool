@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model KnowledgePoint {
+  id         String   @id
+  subject    String
+  grade      String
+  module     String
+  pointName  String
+  weight     Float
+  difficulty Int
+  content    String
+  
+  // 删除了 SQLite 不支持的 parentIds String[]
+  // 使用 Prisma 官方标准的多对多自关联写法
+  parents    KnowledgePoint[] @relation("KnowledgeHierarchy")
+  children   KnowledgePoint[] @relation("KnowledgeHierarchy")
+}

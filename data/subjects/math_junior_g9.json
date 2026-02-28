@@ -1,0 +1,530 @@
+[
+  {
+    "id": "MATH_G9_001",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数与代数",
+    "pointName": "一元二次方程的概念",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 一元二次方程的概念
+只含有一个未知数，并且未知数的最高次数是2的整式方程叫做一元二次方程。",
+    "parentIds": ["MATH_G7_014"]
+  },
+  {
+    "id": "MATH_G9_002",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数与代数",
+    "pointName": "一元二次方程的一般形式",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 一元二次方程的一般形式
+ax²+bx+c=0（a≠0）。",
+    "parentIds": ["MATH_G9_001"]
+  },
+  {
+    "id": "MATH_G9_003",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数与代数",
+    "pointName": "一元二次方程的解法",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 一元二次方程的解法
+直接开平方法、配方法、公式法、因式分解法。",
+    "parentIds": ["MATH_G9_002"]
+  },
+  {
+    "id": "MATH_G9_004",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数与代数",
+    "pointName": "一元二次方程的根的判别式",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 一元二次方程的根的判别式
+Δ=b²-4ac，当Δ>0时，方程有两个不相等的实数根；当Δ=0时，方程有两个相等的实数根；当Δ<0时，方程没有实数根。",
+    "parentIds": ["MATH_G9_003"]
+  },
+  {
+    "id": "MATH_G9_005",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数与代数",
+    "pointName": "一元二次方程的根与系数的关系",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 一元二次方程的根与系数的关系
+若x₁、x₂是一元二次方程ax²+bx+c=0的两个根，则x₁+x₂=-b/a，x₁·x₂=c/a。",
+    "parentIds": ["MATH_G9_003"]
+  },
+  {
+    "id": "MATH_G9_006",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数与代数",
+    "pointName": "一元二次方程的应用",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 一元二次方程的应用
+包括面积问题、利润问题、增长率问题等。",
+    "parentIds": ["MATH_G9_003"]
+  },
+  {
+    "id": "MATH_G9_007",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "二次函数的概念",
+    "weight": 9.0,
+    "difficulty": 3,
+    "content": "### 二次函数的概念
+形如y=ax²+bx+c（a、b、c为常数，a≠0）的函数叫做二次函数。",
+    "parentIds": ["MATH_G8_019"]
+  },
+  {
+    "id": "MATH_G9_008",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "二次函数的图象",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 二次函数的图象
+二次函数的图象是一条抛物线。",
+    "parentIds": ["MATH_G9_007"]
+  },
+  {
+    "id": "MATH_G9_009",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "二次函数的性质",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 二次函数的性质
+当a>0时，抛物线开口向上，有最小值；当a<0时，抛物线开口向下，有最大值。对称轴为x=-b/2a。",
+    "parentIds": ["MATH_G9_008"]
+  },
+  {
+    "id": "MATH_G9_010",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "二次函数的顶点式",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 二次函数的顶点式
+y=a(x-h)²+k，其中(h,k)是抛物线的顶点坐标。",
+    "parentIds": ["MATH_G9_009"]
+  },
+  {
+    "id": "MATH_G9_011",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "二次函数的交点式",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 二次函数的交点式
+y=a(x-x₁)(x-x₂)，其中x₁、x₂是抛物线与x轴的交点横坐标。",
+    "parentIds": ["MATH_G9_009"]
+  },
+  {
+    "id": "MATH_G9_012",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "二次函数的应用",
+    "weight": 9.0,
+    "difficulty": 5,
+    "content": "### 二次函数的应用
+包括最大面积问题、最大利润问题等。",
+    "parentIds": ["MATH_G9_009"]
+  },
+  {
+    "id": "MATH_G9_013",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "反比例函数的概念",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 反比例函数的概念
+形如y=k/x（k为常数，k≠0）的函数叫做反比例函数。",
+    "parentIds": ["MATH_G8_017"]
+  },
+  {
+    "id": "MATH_G9_014",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "反比例函数的图象",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 反比例函数的图象
+反比例函数的图象是双曲线。",
+    "parentIds": ["MATH_G9_013"]
+  },
+  {
+    "id": "MATH_G9_015",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "反比例函数的性质",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 反比例函数的性质
+当k>0时，图象在第一、三象限，在每个象限内，y随x的增大而减小；当k<0时，图象在第二、四象限，在每个象限内，y随x的增大而增大。",
+    "parentIds": ["MATH_G9_014"]
+  },
+  {
+    "id": "MATH_G9_016",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "函数",
+    "pointName": "反比例函数的应用",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 反比例函数的应用
+包括反比例关系的实际问题。",
+    "parentIds": ["MATH_G9_015"]
+  },
+  {
+    "id": "MATH_G9_017",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "圆的概念",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 圆的概念
+在一个平面内，线段OA绕它固定的一个端点O旋转一周，另一个端点A所形成的图形叫做圆。",
+    "parentIds": []
+  },
+  {
+    "id": "MATH_G9_018",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "圆的基本性质",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 圆的基本性质
+圆是轴对称图形，也是中心对称图形。垂径定理：垂直于弦的直径平分弦且平分弦所对的两条弧。",
+    "parentIds": ["MATH_G9_017"]
+  },
+  {
+    "id": "MATH_G9_019",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "圆心角与圆周角",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 圆心角与圆周角
+圆心角：顶点在圆心的角。圆周角：顶点在圆上，并且两边都与圆相交的角。圆周角定理：一条弧所对的圆周角等于它所对的圆心角的一半。",
+    "parentIds": ["MATH_G9_017"]
+  },
+  {
+    "id": "MATH_G9_020",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "点与圆的位置关系",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 点与圆的位置关系
+点在圆外、点在圆上、点在圆内。",
+    "parentIds": ["MATH_G9_017"]
+  },
+  {
+    "id": "MATH_G9_021",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "直线与圆的位置关系",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 直线与圆的位置关系
+相离、相切、相交。",
+    "parentIds": ["MATH_G9_017"]
+  },
+  {
+    "id": "MATH_G9_022",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "切线的性质",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 切线的性质
+圆的切线垂直于经过切点的半径。",
+    "parentIds": ["MATH_G9_021"]
+  },
+  {
+    "id": "MATH_G9_023",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "切线的判定",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 切线的判定
+经过半径的外端并且垂直于这条半径的直线是圆的切线。",
+    "parentIds": ["MATH_G9_021"]
+  },
+  {
+    "id": "MATH_G9_024",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "圆与圆的位置关系",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 圆与圆的位置关系
+外离、外切、相交、内切、内含。",
+    "parentIds": ["MATH_G9_017"]
+  },
+  {
+    "id": "MATH_G9_025",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "弧长和扇形面积",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 弧长和扇形面积
+弧长公式：l=nπr/180，扇形面积公式：S=nπr²/360=1/2lr。",
+    "parentIds": ["MATH_G9_017"]
+  },
+  {
+    "id": "MATH_G9_026",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "相似三角形的概念",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 相似三角形的概念
+对应角相等，对应边成比例的三角形叫做相似三角形。",
+    "parentIds": ["MATH_G8_024"]
+  },
+  {
+    "id": "MATH_G9_027",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "相似三角形的判定",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 相似三角形的判定
+两角对应相等的两个三角形相似；两边对应成比例且夹角相等的两个三角形相似；三边对应成比例的两个三角形相似。",
+    "parentIds": ["MATH_G9_026"]
+  },
+  {
+    "id": "MATH_G9_028",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "相似三角形的性质",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 相似三角形的性质
+相似三角形的对应角相等，对应边成比例；相似三角形的周长比等于相似比；相似三角形的面积比等于相似比的平方。",
+    "parentIds": ["MATH_G9_026"]
+  },
+  {
+    "id": "MATH_G9_029",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "相似多边形",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 相似多边形
+对应角相等，对应边成比例的多边形叫做相似多边形。",
+    "parentIds": ["MATH_G9_026"]
+  },
+  {
+    "id": "MATH_G9_030",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "位似图形",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 位似图形
+如果两个图形不仅是相似图形，而且每组对应点所在的直线都经过同一点，那么这样的两个图形叫做位似图形。",
+    "parentIds": ["MATH_G9_029"]
+  },
+  {
+    "id": "MATH_G9_031",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "锐角三角函数的概念",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 锐角三角函数的概念
+在直角三角形中，锐角的正弦、余弦、正切。",
+    "parentIds": ["MATH_G8_037"]
+  },
+  {
+    "id": "MATH_G9_032",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "特殊角的三角函数值",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 特殊角的三角函数值
+30°、45°、60°角的正弦、余弦、正切值。",
+    "parentIds": ["MATH_G9_031"]
+  },
+  {
+    "id": "MATH_G9_033",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "解直角三角形",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 解直角三角形
+在直角三角形中，由已知元素求未知元素的过程叫做解直角三角形。",
+    "parentIds": ["MATH_G9_031"]
+  },
+  {
+    "id": "MATH_G9_034",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "图形与几何",
+    "pointName": "解直角三角形的应用",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 解直角三角形的应用
+包括仰角、俯角、坡度等问题。",
+    "parentIds": ["MATH_G9_033"]
+  },
+  {
+    "id": "MATH_G9_035",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "统计与概率",
+    "pointName": "随机事件",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 随机事件
+在一定条件下，可能发生也可能不发生的事件叫做随机事件。",
+    "parentIds": []
+  },
+  {
+    "id": "MATH_G9_036",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "统计与概率",
+    "pointName": "概率的概念",
+    "weight": 8.0,
+    "difficulty": 3,
+    "content": "### 概率的概念
+一般地，对于一个随机事件A，我们把刻画其发生可能性大小的数值，称为随机事件A发生的概率。",
+    "parentIds": ["MATH_G9_035"]
+  },
+  {
+    "id": "MATH_G9_037",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "统计与概率",
+    "pointName": "概率的计算",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 概率的计算
+P(A)=事件A可能出现的结果数/所有可能出现的结果数。",
+    "parentIds": ["MATH_G9_036"]
+  },
+  {
+    "id": "MATH_G9_038",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "统计与概率",
+    "pointName": "用频率估计概率",
+    "weight": 7.0,
+    "difficulty": 3,
+    "content": "### 用频率估计概率
+在大量重复试验中，事件A发生的频率会稳定在某个常数附近，这个常数就是事件A的概率。",
+    "parentIds": ["MATH_G9_036"]
+  },
+  {
+    "id": "MATH_G9_039",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "统计与概率",
+    "pointName": "统计与概率的综合应用",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 统计与概率的综合应用
+包括数据的收集、整理、分析和概率的计算。",
+    "parentIds": ["MATH_G9_037", "MATH_G9_038"]
+  },
+  {
+    "id": "MATH_G9_040",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数学思想方法",
+    "pointName": "数形结合思想",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 数形结合思想
+通过数与形之间的对应和转化来解决数学问题的思想方法。",
+    "parentIds": ["MATH_G8_021"]
+  },
+  {
+    "id": "MATH_G9_041",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数学思想方法",
+    "pointName": "分类讨论思想",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 分类讨论思想
+当问题所给的对象不能进行统一研究时，需要对研究对象按某个标准进行分类，然后对每一类分别研究，得出每一类的结论，最后综合各类结果得到整个问题的解答。",
+    "parentIds": []
+  },
+  {
+    "id": "MATH_G9_042",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数学思想方法",
+    "pointName": "转化思想",
+    "weight": 8.0,
+    "difficulty": 4,
+    "content": "### 转化思想
+将复杂问题转化为简单问题，将未知问题转化为已知问题，将陌生问题转化为熟悉问题。",
+    "parentIds": []
+  },
+  {
+    "id": "MATH_G9_043",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数学思想方法",
+    "pointName": "函数思想",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 函数思想
+用函数的概念和性质去分析问题、转化问题和解决问题。",
+    "parentIds": ["MATH_G8_017"]
+  },
+  {
+    "id": "MATH_G9_044",
+    "subject": "数学",
+    "grade": "九年级",
+    "module": "数学思想方法",
+    "pointName": "方程思想",
+    "weight": 9.0,
+    "difficulty": 4,
+    "content": "### 方程思想
+从问题的数量关系入手，运用数学语言将问题中的条件转化为数学模型（方程、不等式或方程与不等式的混合组），然后通过解方程（组）或不等式（组）来使问题获解。",
+    "parentIds": ["MATH_G7_014"]
+  }
+]

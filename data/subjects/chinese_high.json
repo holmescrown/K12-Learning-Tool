@@ -1,0 +1,167 @@
+[
+  {
+    "id": "chinese_high_1",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "现代文阅读",
+    "pointName": "论述类文本阅读",
+    "weight": 8,
+    "difficulty": 4,
+    "content": "理解论述类文本的核心观点和论证结构，分析作者的论证方法和逻辑关系",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_2",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "现代文阅读",
+    "pointName": "文学类文本阅读",
+    "weight": 10,
+    "difficulty": 5,
+    "content": "分析小说、散文等文学作品的主题、人物形象、艺术手法和语言特色",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_3",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "现代文阅读",
+    "pointName": "实用类文本阅读",
+    "weight": 7,
+    "difficulty": 3,
+    "content": "阅读新闻、报告、传记等实用类文本，提取关键信息，理解文本内容",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_4",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "古诗文阅读",
+    "pointName": "文言文阅读",
+    "weight": 9,
+    "difficulty": 5,
+    "content": "理解文言文的实词、虚词、句式和文化常识，翻译文言语句",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_5",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "古诗文阅读",
+    "pointName": "古诗词鉴赏",
+    "weight": 8,
+    "difficulty": 4,
+    "content": "分析古诗词的意境、情感、表现手法和语言特色",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_6",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "语言文字运用",
+    "pointName": "词语运用",
+    "weight": 6,
+    "difficulty": 3,
+    "content": "正确使用词语（包括成语），辨析近义词和成语的用法",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_7",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "语言文字运用",
+    "pointName": "病句辨析",
+    "weight": 6,
+    "difficulty": 3,
+    "content": "识别并修改病句，掌握常见的病句类型",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_8",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "语言文字运用",
+    "pointName": "语言表达简明、连贯、得体",
+    "weight": 7,
+    "difficulty": 3,
+    "content": "根据语境选择恰当的语言表达，做到简明、连贯、得体",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_9",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "写作",
+    "pointName": "议论文写作",
+    "weight": 10,
+    "difficulty": 5,
+    "content": "掌握议论文的结构和论证方法，能清晰表达观点，进行有理有据的论证",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_10",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "写作",
+    "pointName": "记叙文写作",
+    "weight": 9,
+    "difficulty": 4,
+    "content": "掌握记叙文的写作技巧，能生动地叙述事件，塑造人物形象",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_11",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "写作",
+    "pointName": "文学类文本写作",
+    "weight": 8,
+    "difficulty": 4,
+    "content": "能写作散文、诗歌等文学作品，表达独特的情感和体验",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_12",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "文化常识",
+    "pointName": "中国传统文化常识",
+    "weight": 5,
+    "difficulty": 3,
+    "content": "了解中国传统文化的基本常识，包括历史、哲学、艺术等方面",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_13",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "名著阅读",
+    "pointName": "经典名著阅读与鉴赏",
+    "weight": 7,
+    "difficulty": 4,
+    "content": "阅读并鉴赏中外经典名著，理解其主题、人物和艺术特色",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_14",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "语言文字基础",
+    "pointName": "字形与字音",
+    "weight": 4,
+    "difficulty": 2,
+    "content": "掌握现代汉语的字形和字音，能正确读写常用汉字",
+    "parentIds": []
+  },
+  {
+    "id": "chinese_high_15",
+    "subject": "语文",
+    "grade": "高中",
+    "module": "语言文字基础",
+    "pointName": "标点符号的正确使用",
+    "weight": 3,
+    "difficulty": 2,
+    "content": "掌握标点符号的基本用法，能正确使用标点符号",
+    "parentIds": []
+  }
+]
