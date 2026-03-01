@@ -31,16 +31,18 @@ export default function KnowledgeLab() {
     const controller = new AbortController();
     fetch('/api/points', { signal: controller.signal })
       .then(res => res.ok ? res.json() : [])
-      .then((data: KnowledgePoint[]) => {
-        // Diagram 风格布局：拉开空间，留白是高级感的来源
+      .then((raw: unknown) => {
+        // MODIFIED: 显式断言，解决构建时的类型校验拦截
+        const data = raw as KnowledgePoint[];
+        
         const difficultyCounts: Record<number, number> = {};
         const layoutData = data.map(p => {
           const level = p.difficulty || 1;
           difficultyCounts[level] = (difficultyCounts[level] || 0) + 1;
           return {
             ...p,
-            x: level * 420 - 200, 
-            y: difficultyCounts[level] * 220 - 100 
+            x: level * 420 - 200,
+            y: difficultyCounts[level] * 220 - 100
           };
         });
         setPoints(layoutData);
