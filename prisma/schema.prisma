@@ -1,10 +1,12 @@
+// MODIFIED: 增加 driverAdapters 以支持 Cloudflare D1
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
 }
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./dev.db"
+  url      = env("DATABASE_URL") // 保持不变，本地 seed 脚本仍然需要
 }
 
 model KnowledgePoint {
