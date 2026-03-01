@@ -1,12 +1,9 @@
-// 🚨 修复：在本地使用 SQLite 时，绝对不能使用 Edge Runtime，因为它无法读取本地 .db 文件。
-// 部署到 Cloudflare D1 时需要配合专门的 Prisma D1 Adapter，本地开发请务必注释掉此行。
-// export const runtime = 'edge';
+// MODIFIED: 恢复 Edge 运行时声明，这是 Cloudflare Pages 部署的硬性要求
+export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
 
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
-
-// MODIFIED: 强制当前 API 为动态路由，彻底禁用 Next.js 的默认静态缓存策略
-export const dynamic = 'force-dynamic';
 
 const globalForPrisma = global as unknown as { prisma: PrismaClient };
 const prisma = globalForPrisma.prisma || new PrismaClient();
