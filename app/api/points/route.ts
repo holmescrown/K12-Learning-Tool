@@ -1,4 +1,4 @@
-// MODIFIED: 强制 Edge 运行时和动态路由
+// app/api/points/route.ts
 export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
@@ -9,15 +9,13 @@ import { getRequestContext } from '@cloudflare/next-on-pages';
 
 export async function GET() {
   try {
-    // 1. 获取 Cloudflare Pages 注入的上下文环境
-    // 这将从您 wrangler.toml 中配置的 binding = "DB" 读取实例
-    const env = getRequestContext().env;
+    // MODIFIED: 强制追加 as any，彻底关闭 TypeScript 对 env.DB 的拦截检查
+    const env = getRequestContext().env as any;
     
-    // 2. 将 D1 数据库绑定传入 Prisma Adapter
+    // 现在 TypeScript 不会再报错说找不到 DB 了
     const adapter = new PrismaD1(env.DB);
     const prisma = new PrismaClient({ adapter });
 
-    // 3. 执行安全的 Select 查询
     const points = await prisma.knowledgePoint.findMany({
       select: {
         id: true,
