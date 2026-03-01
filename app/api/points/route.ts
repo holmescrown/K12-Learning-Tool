@@ -1,5 +1,6 @@
-// 必须添加这一行，否则 Cloudflare 无法处理 D1 数据库请求
-export const runtime = 'edge';
+// 🚨 修复：在本地使用 SQLite 时，绝对不能使用 Edge Runtime，因为它无法读取本地 .db 文件。
+// 部署到 Cloudflare D1 时需要配合专门的 Prisma D1 Adapter，本地开发请务必注释掉此行。
+// export const runtime = 'edge';
 
 import { NextResponse } from 'next/server';
 import { PrismaClient } from '@prisma/client';
