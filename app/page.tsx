@@ -31,27 +31,19 @@ export default function KnowledgeLab() {
     const controller = new AbortController();
     fetch('/api/points', { signal: controller.signal })
       .then(res => res.ok ? res.json() : [])
-      .then((raw: unknown) => {
-        let data = raw as KnowledgePoint[];
+      // FIX: 彻底解决 TS 构建报错！接收 unknown 类型，然后在内部断言
+      .then((rawData: unknown) => {
+        const data = rawData as KnowledgePoint[];
         
-        // --- 核心修复：如果后端没数据，先用模拟数据撑起界面 ---
-        if (data.length === 0) {
-          data = [
-            { id: "1", pointName: "函数概念", module: "代数", difficulty: 2, subject: "数学", grade: "初一", weight: 8, parents: [] },
-            { id: "2", pointName: "一次函数", module: "代数", difficulty: 3, subject: "数学", grade: "初二", weight: 9, parents: [{id: "1", pointName: "函数概念"}]
-            }
-          ];
-        }
-        // ------------------------------------------------
-        
+        // Diagram 风格布局：拉开空间，留白是高级感的来源
         const difficultyCounts: Record<number, number> = {};
         const layoutData = data.map(p => {
           const level = p.difficulty || 1;
           difficultyCounts[level] = (difficultyCounts[level] || 0) + 1;
           return {
             ...p,
-            x: level * 420 - 200,
-            y: difficultyCounts[level] * 220 - 100
+            x: level * 420 - 200, 
+            y: difficultyCounts[level] * 220 - 100 
           };
         });
         setPoints(layoutData);
